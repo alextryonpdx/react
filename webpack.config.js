@@ -1,8 +1,6 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
 
-
-
 module.exports = {
 
   entry: [
@@ -15,7 +13,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: [ '.js', '.jsx' ]
   },
 
   module: {
